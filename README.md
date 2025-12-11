@@ -90,4 +90,9 @@ trading-bot-binance/
 ├── risk.py             # Gestión de riesgo, TP/SL y tamaño de posición
 ├── config.example.py   # Plantilla de configuración (sin claves reales)
 └── README.md           # Documentación del proyecto
+git clone https://github.com/cutierpe/trading-bot-binance
+cd trading-bot-binance
+cp config.example.py config.py
+pip install -r requirements.txt
+python main.py
 
