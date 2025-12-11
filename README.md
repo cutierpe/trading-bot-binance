@@ -80,4 +80,14 @@ Feel free to explore or contact me for collaboration.
 
 
 ## 🧱 Project Structure
+## Project structure
+
+```text
+trading-bot-binance/
+├── main.py             # Demo runner: orquesta estrategia + TP/SL
+├── indicators.py       # EMA, RSI, Bollinger Bands
+├── model.py            # Placeholder de modelo de Machine Learning
+├── risk.py             # Gestión de riesgo, TP/SL y tamaño de posición
+├── config.example.py   # Plantilla de configuración (sin claves reales)
+└── README.md           # Documentación del proyecto
 
